@@ -14,7 +14,9 @@ and adds what the public model doesn't ship with: something that keeps the robot
 ## Quick start
 
 ```bash
-git clone https://github.com/menloresearch/asimov-1        # the robot (place it inside this folder)
+git clone https://github.com/gnana70/asimov-1-walking-controller
+cd asimov-1-walking-controller
+git clone https://github.com/menloresearch/asimov-1        # the robot model, cloned inside this folder
 pip install mujoco numpy scipy quadprog                     # Python 3.10+ (renders need requirements.txt)
 python play.py walk                                         # opens MuJoCo's viewer: the 21-step walk from the video
 ```
