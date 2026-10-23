@@ -1,0 +1,10 @@
+mujoco>=3.4
+numpy
+scipy
+quadprog
+# renders only:
+imageio
+imageio-ffmpeg
+trimesh
+fast-simplification
+gmsh
